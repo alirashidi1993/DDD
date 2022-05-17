@@ -1,0 +1,1210 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\API\\API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\API\\API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\API\\API.csproj",
+        "projectName": "API",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.AssemblyHelper\\Framework.AssemblyHelper.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.AssemblyHelper\\Framework.AssemblyHelper.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Middleware\\Framework.Middleware.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Middleware\\Framework.Middleware.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ApplicationService\\HR.EmployeeContext.ApplicationService.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ApplicationService\\HR.EmployeeContext.ApplicationService.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Configuration\\HR.EmployeeContext.Configuration.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Configuration\\HR.EmployeeContext.Configuration.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.DomainServices\\HR.EmployeeContext.DomainServices.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.DomainServices\\HR.EmployeeContext.DomainServices.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Facade.Contracts\\HR.EmployeeContext.Facade.Contracts.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Facade.Contracts\\HR.EmployeeContext.Facade.Contracts.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Facade\\HR.EmployeeContext.Facade.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Facade\\HR.EmployeeContext.Facade.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.Persistence\\HR.Persistence.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.Persistence\\HR.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.ApplicationService\\Framework.ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.ApplicationService\\Framework.ApplicationService.csproj",
+        "projectName": "Framework.ApplicationService",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.ApplicationService\\Framework.ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.ApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Persistence\\Framework.Persistence.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Persistence\\Framework.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.AssemblyHelper\\Framework.AssemblyHelper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.AssemblyHelper\\Framework.AssemblyHelper.csproj",
+        "projectName": "Framework.AssemblyHelper",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.AssemblyHelper\\Framework.AssemblyHelper.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.AssemblyHelper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj",
+        "projectName": "Framework.Core",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.DependencyInjection\\Framework.DependencyInjection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.DependencyInjection\\Framework.DependencyInjection.csproj",
+        "projectName": "Framework.DependencyInjection",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.DependencyInjection\\Framework.DependencyInjection.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.DependencyInjection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.ApplicationService\\Framework.ApplicationService.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.ApplicationService\\Framework.ApplicationService.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.AssemblyHelper\\Framework.AssemblyHelper.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.AssemblyHelper\\Framework.AssemblyHelper.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Domain\\HR.EmployeeContext.Domain.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Domain\\HR.EmployeeContext.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Domain\\Framework.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Domain\\Framework.Domain.csproj",
+        "projectName": "Framework.Domain",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Domain\\Framework.Domain.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Facade\\Framework.Facade.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Facade\\Framework.Facade.csproj",
+        "projectName": "Framework.Facade",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Facade\\Framework.Facade.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Facade\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Middleware\\Framework.Middleware.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Middleware\\Framework.Middleware.csproj",
+        "projectName": "Framework.Middleware",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Middleware\\Framework.Middleware.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Middleware\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Domain\\Framework.Domain.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Domain\\Framework.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Persistence\\Framework.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Persistence\\Framework.Persistence.csproj",
+        "projectName": "Framework.Persistence",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Persistence\\Framework.Persistence.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Domain\\Framework.Domain.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Domain\\Framework.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ApplicationService.Contracts\\HR.EmployeeContext.ApplicationService.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ApplicationService.Contracts\\HR.EmployeeContext.ApplicationService.Contracts.csproj",
+        "projectName": "HR.EmployeeContext.ApplicationService.Contracts",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ApplicationService.Contracts\\HR.EmployeeContext.ApplicationService.Contracts.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ApplicationService.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ApplicationService\\HR.EmployeeContext.ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ApplicationService\\HR.EmployeeContext.ApplicationService.csproj",
+        "projectName": "HR.EmployeeContext.ApplicationService",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ApplicationService\\HR.EmployeeContext.ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ApplicationService.Contracts\\HR.EmployeeContext.ApplicationService.Contracts.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ApplicationService.Contracts\\HR.EmployeeContext.ApplicationService.Contracts.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Domain\\HR.EmployeeContext.Domain.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Domain\\HR.EmployeeContext.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Configuration\\HR.EmployeeContext.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Configuration\\HR.EmployeeContext.Configuration.csproj",
+        "projectName": "HR.EmployeeContext.Configuration",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Configuration\\HR.EmployeeContext.Configuration.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.DependencyInjection\\Framework.DependencyInjection.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.DependencyInjection\\Framework.DependencyInjection.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.DomainServices\\HR.EmployeeContext.DomainServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.DomainServices\\HR.EmployeeContext.DomainServices.csproj",
+        "projectName": "HR.EmployeeContext.DomainServices",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.DomainServices\\HR.EmployeeContext.DomainServices.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.DomainServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Domain\\HR.EmployeeContext.Domain.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Domain\\HR.EmployeeContext.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Domain\\HR.EmployeeContext.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Domain\\HR.EmployeeContext.Domain.csproj",
+        "projectName": "HR.EmployeeContext.Domain",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Domain\\HR.EmployeeContext.Domain.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Core\\Framework.Core.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Domain\\Framework.Domain.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Domain\\Framework.Domain.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ExceptionResources\\HR.EmployeeContext.ExceptionResources.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ExceptionResources\\HR.EmployeeContext.ExceptionResources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ExceptionResources\\HR.EmployeeContext.ExceptionResources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ExceptionResources\\HR.EmployeeContext.ExceptionResources.csproj",
+        "projectName": "HR.EmployeeContext.ExceptionResources",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ExceptionResources\\HR.EmployeeContext.ExceptionResources.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ExceptionResources\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Facade.Contracts\\HR.EmployeeContext.Facade.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Facade.Contracts\\HR.EmployeeContext.Facade.Contracts.csproj",
+        "projectName": "HR.EmployeeContext.Facade.Contracts",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Facade.Contracts\\HR.EmployeeContext.Facade.Contracts.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Facade.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ApplicationService.Contracts\\HR.EmployeeContext.ApplicationService.Contracts.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ApplicationService.Contracts\\HR.EmployeeContext.ApplicationService.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Facade\\HR.EmployeeContext.Facade.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Facade\\HR.EmployeeContext.Facade.csproj",
+        "projectName": "HR.EmployeeContext.Facade",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Facade\\HR.EmployeeContext.Facade.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Facade\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Facade\\Framework.Facade.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Facade\\Framework.Facade.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Facade.Contracts\\HR.EmployeeContext.Facade.Contracts.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Facade.Contracts\\HR.EmployeeContext.Facade.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Infrastructure\\HR.EmployeeContext.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Infrastructure\\HR.EmployeeContext.Infrastructure.csproj",
+        "projectName": "HR.EmployeeContext.Infrastructure",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Infrastructure\\HR.EmployeeContext.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Persistence\\Framework.Persistence.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Persistence\\Framework.Persistence.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Domain\\HR.EmployeeContext.Domain.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Domain\\HR.EmployeeContext.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.Persistence\\HR.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.Persistence\\HR.Persistence.csproj",
+        "projectName": "HR.Persistence",
+        "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.Persistence\\HR.Persistence.csproj",
+        "packagesPath": "C:\\Users\\4000815\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\4000815\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Persistence\\Framework.Persistence.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Persistence\\Framework.Persistence.csproj"
+              },
+              "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Infrastructure\\HR.EmployeeContext.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.Infrastructure\\HR.EmployeeContext.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

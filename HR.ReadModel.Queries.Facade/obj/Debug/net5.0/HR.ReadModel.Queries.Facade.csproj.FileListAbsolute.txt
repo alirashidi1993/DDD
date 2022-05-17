@@ -1,0 +1,12 @@
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Queries.Facade\bin\Debug\net5.0\HR.ReadModel.Queries.Facade.deps.json
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Queries.Facade\bin\Debug\net5.0\HR.ReadModel.Queries.Facade.dll
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Queries.Facade\bin\Debug\net5.0\ref\HR.ReadModel.Queries.Facade.dll
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Queries.Facade\bin\Debug\net5.0\HR.ReadModel.Queries.Facade.pdb
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Queries.Facade\obj\Debug\net5.0\HR.ReadModel.Queries.Facade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Queries.Facade\obj\Debug\net5.0\HR.ReadModel.Queries.Facade.AssemblyInfoInputs.cache
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Queries.Facade\obj\Debug\net5.0\HR.ReadModel.Queries.Facade.AssemblyInfo.cs
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Queries.Facade\obj\Debug\net5.0\HR.ReadModel.Queries.Facade.csproj.CoreCompileInputs.cache
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Queries.Facade\obj\Debug\net5.0\HR.ReadModel.Queries.Facade.dll
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Queries.Facade\obj\Debug\net5.0\ref\HR.ReadModel.Queries.Facade.dll
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Queries.Facade\obj\Debug\net5.0\HR.ReadModel.Queries.Facade.pdb
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Queries.Facade\obj\Debug\net5.0\HR.ReadModel.Queries.Facade.csproj.AssemblyReference.cache

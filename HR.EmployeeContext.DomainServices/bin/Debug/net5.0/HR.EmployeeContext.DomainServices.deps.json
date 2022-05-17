@@ -1,0 +1,89 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "HR.EmployeeContext.DomainServices/1.0.0": {
+        "dependencies": {
+          "HR.EmployeeContext.Domain": "1.0.0"
+        },
+        "runtime": {
+          "HR.EmployeeContext.DomainServices.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Framework.Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "Framework.Core.dll": {}
+        }
+      },
+      "Framework.Domain/1.0.0": {
+        "runtime": {
+          "Framework.Domain.dll": {}
+        }
+      },
+      "HR.EmployeeContext.Domain/1.0.0": {
+        "dependencies": {
+          "Framework.Core": "1.0.0",
+          "Framework.Domain": "1.0.0",
+          "HR.EmployeeContext.ExceptionResources": "1.0.0"
+        },
+        "runtime": {
+          "HR.EmployeeContext.Domain.dll": {}
+        }
+      },
+      "HR.EmployeeContext.ExceptionResources/1.0.0": {
+        "runtime": {
+          "HR.EmployeeContext.ExceptionResources.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HR.EmployeeContext.DomainServices/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Framework.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Framework.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HR.EmployeeContext.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HR.EmployeeContext.ExceptionResources/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

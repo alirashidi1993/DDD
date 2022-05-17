@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "h4mon4P6M4T0qtH++MIJQx506SGjnPujJrFmNX1AyK+NnMu6SpNkSoH91Gt43FOkgTi0UXnXVXtkqPV1v3wtoQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\4000815\\source\\repos\\Rashid\\HR.EmployeeContext.ApplicationService.Contracts\\HR.EmployeeContext.ApplicationService.Contracts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\4000815\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

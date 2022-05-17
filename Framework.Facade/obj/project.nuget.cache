@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RVIho4snOsNQ7lE4G0DkNt+Biw6Lo2AFh+BR55zPcBxjPdXT7sgv/QOkcYdt+U1jEqpODO19q62AMHQhCfasAw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\4000815\\source\\repos\\Rashid\\Framework.Facade\\Framework.Facade.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\4000815\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

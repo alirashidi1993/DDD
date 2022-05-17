@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.16">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework.AssemblyHelper\Framework.AssemblyHelper.csproj" />
+    <ProjectReference Include="..\Framework.Middleware\Framework.Middleware.csproj" />
+    <ProjectReference Include="..\HR.EmployeeContext.ApplicationService\HR.EmployeeContext.ApplicationService.csproj" />
+    <ProjectReference Include="..\HR.EmployeeContext.Configuration\HR.EmployeeContext.Configuration.csproj" />
+    <ProjectReference Include="..\HR.EmployeeContext.DomainServices\HR.EmployeeContext.DomainServices.csproj" />
+    <ProjectReference Include="..\HR.EmployeeContext.Facade.Contracts\HR.EmployeeContext.Facade.Contracts.csproj" />
+    <ProjectReference Include="..\HR.EmployeeContext.Facade\HR.EmployeeContext.Facade.csproj" />
+    <ProjectReference Include="..\HR.Persistence\HR.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

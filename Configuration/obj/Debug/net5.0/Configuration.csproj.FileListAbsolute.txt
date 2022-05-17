@@ -1,0 +1,12 @@
+C:\Users\4000815\Desktop\quiz\API\Configuration\bin\Debug\net5.0\Configuration.deps.json
+C:\Users\4000815\Desktop\quiz\API\Configuration\bin\Debug\net5.0\Configuration.dll
+C:\Users\4000815\Desktop\quiz\API\Configuration\bin\Debug\net5.0\ref\Configuration.dll
+C:\Users\4000815\Desktop\quiz\API\Configuration\bin\Debug\net5.0\Configuration.pdb
+C:\Users\4000815\Desktop\quiz\API\Configuration\obj\Debug\net5.0\Configuration.csproj.AssemblyReference.cache
+C:\Users\4000815\Desktop\quiz\API\Configuration\obj\Debug\net5.0\Configuration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4000815\Desktop\quiz\API\Configuration\obj\Debug\net5.0\Configuration.AssemblyInfoInputs.cache
+C:\Users\4000815\Desktop\quiz\API\Configuration\obj\Debug\net5.0\Configuration.AssemblyInfo.cs
+C:\Users\4000815\Desktop\quiz\API\Configuration\obj\Debug\net5.0\Configuration.csproj.CoreCompileInputs.cache
+C:\Users\4000815\Desktop\quiz\API\Configuration\obj\Debug\net5.0\Configuration.dll
+C:\Users\4000815\Desktop\quiz\API\Configuration\obj\Debug\net5.0\ref\Configuration.dll
+C:\Users\4000815\Desktop\quiz\API\Configuration\obj\Debug\net5.0\Configuration.pdb

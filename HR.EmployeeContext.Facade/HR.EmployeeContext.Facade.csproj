@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework.Facade\Framework.Facade.csproj" />
+    <ProjectReference Include="..\HR.EmployeeContext.Facade.Contracts\HR.EmployeeContext.Facade.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

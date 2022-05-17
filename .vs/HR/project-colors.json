@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "67cc9919-4e50-4582-8dce-e1a9f6919186": {
+      "ProjectGuid": "67cc9919-4e50-4582-8dce-e1a9f6919186",
+      "DisplayName": "Framework.Domain",
+      "ColorIndex": 0
+    },
+    "bbe1fe6c-f42d-4f34-ac34-a639018a9123": {
+      "ProjectGuid": "bbe1fe6c-f42d-4f34-ac34-a639018a9123",
+      "DisplayName": "HR.EmployeeContext.Domain",
+      "ColorIndex": 1
+    },
+    "7919f6ad-64e0-4692-8081-59f070e5969e": {
+      "ProjectGuid": "7919f6ad-64e0-4692-8081-59f070e5969e",
+      "DisplayName": "HR.EmployeeContext.ExceptionResources",
+      "ColorIndex": 2
+    },
+    "a617318d-10ce-483a-957c-b815371f1a2c": {
+      "ProjectGuid": "a617318d-10ce-483a-957c-b815371f1a2c",
+      "DisplayName": "HR.EmployeeContext.DomainServices",
+      "ColorIndex": 3
+    },
+    "151f5868-53ad-495f-a010-1d20e2443c62": {
+      "ProjectGuid": "151f5868-53ad-495f-a010-1d20e2443c62",
+      "DisplayName": "Framework.Core",
+      "ColorIndex": 4
+    },
+    "07eacdd4-1228-4aec-9962-7797c35fa18c": {
+      "ProjectGuid": "07eacdd4-1228-4aec-9962-7797c35fa18c",
+      "DisplayName": "HR.EmployeeContext.Infrastructure",
+      "ColorIndex": 5
+    },
+    "b8310709-6a20-4339-837d-085b945e8bf1": {
+      "ProjectGuid": "b8310709-6a20-4339-837d-085b945e8bf1",
+      "DisplayName": "Framework.Persistence",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "c7ecabfe-6443-42c4-9dd0-3ae6f3a49cc7": {
+      "ProjectGuid": "c7ecabfe-6443-42c4-9dd0-3ae6f3a49cc7",
+      "DisplayName": "HR.EmployeeContext.ApplicationService",
+      "ColorIndex": 7
+    },
+    "37d61422-6014-4a17-8b7d-0f27a6bc507b": {
+      "ProjectGuid": "37d61422-6014-4a17-8b7d-0f27a6bc507b",
+      "DisplayName": "HR.EmployeeContext.ApplicationService.Contracts",
+      "ColorIndex": 8
+    },
+    "a7f272e3-822f-4f75-9d76-7ea277fa4b50": {
+      "ProjectGuid": "a7f272e3-822f-4f75-9d76-7ea277fa4b50",
+      "DisplayName": "API",
+      "ColorIndex": 9
+    },
+    "c1304944-15b0-41da-86c1-588e1ab4e508": {
+      "ProjectGuid": "c1304944-15b0-41da-86c1-588e1ab4e508",
+      "DisplayName": "HR.EmployeeContext.Facade.Contracts",
+      "ColorIndex": 10
+    },
+    "eb3a3730-c11d-4219-b9d7-3af00463ab6b": {
+      "ProjectGuid": "eb3a3730-c11d-4219-b9d7-3af00463ab6b",
+      "DisplayName": "HR.EmployeeContext.Facade",
+      "ColorIndex": 11
+    },
+    "616d5ed8-841e-4f7e-b910-ae172e65f9ba": {
+      "ProjectGuid": "616d5ed8-841e-4f7e-b910-ae172e65f9ba",
+      "DisplayName": "HR.Persistence",
+      "ColorIndex": 12
+    },
+    "2cbdde21-9734-447a-8f66-bdce7a4693df": {
+      "ProjectGuid": "2cbdde21-9734-447a-8f66-bdce7a4693df",
+      "DisplayName": "Framework.DependencyInjection",
+      "ColorIndex": 13
+    },
+    "715ac65f-839e-4c71-a43d-0f58a46dd17f": {
+      "ProjectGuid": "715ac65f-839e-4c71-a43d-0f58a46dd17f",
+      "DisplayName": "Framework.ApplicationService",
+      "ColorIndex": 14
+    },
+    "47c4e748-507d-4252-9486-27dea4c8c688": {
+      "ProjectGuid": "47c4e748-507d-4252-9486-27dea4c8c688",
+      "DisplayName": "HR.ReadModel.Context",
+      "ColorIndex": 15
+    },
+    "a9ac9935-9835-4b50-9978-9ac684d7ab8f": {
+      "ProjectGuid": "a9ac9935-9835-4b50-9978-9ac684d7ab8f",
+      "DisplayName": "HR.ReadModel.Queries.Facade",
+      "ColorIndex": 0
+    },
+    "988b0052-f400-4c4f-a536-049c8bea8c90": {
+      "ProjectGuid": "988b0052-f400-4c4f-a536-049c8bea8c90",
+      "DisplayName": "HR.ReadModel.Queries.Contracts",
+      "ColorIndex": 1
+    },
+    "17938289-231c-44d1-ae18-95ae10bb9a91": {
+      "ProjectGuid": "17938289-231c-44d1-ae18-95ae10bb9a91",
+      "DisplayName": "Framework.Middleware",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

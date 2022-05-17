@@ -1,0 +1,15 @@
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Context\bin\Debug\net5.0\HR.ReadModel.Context.deps.json
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Context\bin\Debug\net5.0\HR.ReadModel.Context.dll
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Context\bin\Debug\net5.0\ref\HR.ReadModel.Context.dll
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Context\bin\Debug\net5.0\HR.ReadModel.Context.pdb
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Context\obj\Debug\net5.0\HR.ReadModel.Context.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Context\obj\Debug\net5.0\HR.ReadModel.Context.AssemblyInfoInputs.cache
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Context\obj\Debug\net5.0\HR.ReadModel.Context.AssemblyInfo.cs
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Context\obj\Debug\net5.0\HR.ReadModel.Context.csproj.CoreCompileInputs.cache
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Context\obj\Debug\net5.0\HR.ReadModel.Context.dll
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Context\obj\Debug\net5.0\ref\HR.ReadModel.Context.dll
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Context\obj\Debug\net5.0\HR.ReadModel.Context.pdb
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Context\bin\Debug\net5.0\HR.ReadModel.Context.runtimeconfig.json
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Context\bin\Debug\net5.0\HR.ReadModel.Context.runtimeconfig.dev.json
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Context\obj\Debug\net5.0\HR.ReadModel.Context.csproj.AssemblyReference.cache
+C:\Users\4000815\source\repos\Rashid\HR.ReadModel.Context\obj\Debug\net5.0\HR.ReadModel.Context.genruntimeconfig.cache
